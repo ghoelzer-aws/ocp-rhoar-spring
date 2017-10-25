@@ -25,7 +25,7 @@ For the purpose of this lab we will walk you through how to take the completed S
 
 1. Create a Postgres database
 +
-    oc new-app -e POSTGRESQL_USER=luke -ePOSTGRESQL_PASSWORD=secret -ePOSTGRESQL_DATABASE=my_data openshift/postgresql-92-centos7 --name=my-database
+    oc new-app -e POSTGRESQL_USER=luke -ePOSTGRESQL_PASSWORD=secret -ePOSTGRESQL_DATABASE=my_data openshift/postgresql --name=my-database
 
 1. Build and deploy your project
 +
