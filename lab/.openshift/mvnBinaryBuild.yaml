@@ -35,6 +35,8 @@ spec:
                 }
 
                 stage("Build Spring Boot JAR") {
+                  // *** Uncomment for 1st Run *** if Lab 1 was skipped
+                  // sh "mvn clean fabric8:deploy -Popenshift --file lab/pom.xml"
                   sh "mvn clean package -Popenshift --file lab/pom.xml"
                   stash name:"jar", includes:"lab/target/product-catalog.jar"
                 }
