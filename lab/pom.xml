@@ -10,7 +10,13 @@
 
 	<name>product-catalog</name>
 	<description>Product catalog for coolstore</description>
-	
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.1.RELEASE</version>
+		<relativePath/>
+        </parent>	
 	<parent>
 		<groupId>io.openshift</groupId>
 		<artifactId>booster-parent</artifactId>
