@@ -12,18 +12,11 @@
 	<description>Product catalog for coolstore</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.1.RELEASE</version>
-		<relativePath/>
-        </parent>
-	<?xml>
-	<parent>
 		<groupId>io.openshift</groupId>
 		<artifactId>booster-parent</artifactId>
 		<version>6</version>
 	</parent>
-        </?>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
